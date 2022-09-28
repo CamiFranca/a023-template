@@ -2,3 +2,100 @@
     margin: 0;
     padding: 0;
 }
+header{
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+height: 50px;
+padding: 16px;
+background-color: gray;
+border: 5px solid orange;
+align-items: center;
+}
+
+.central{
+display: flex;
+flex-direction:row ;
+justify-content: flex-start;
+border:5px solid rgb(225, 14, 14);
+height: 300px;
+}
+.magenta{
+    background-color: magenta;
+    height: 300px;
+    width: 500px;
+}
+.blue{
+    background-color: blue;
+    flex-grow: 1;
+}
+.green{
+    background-color: green;
+    height: 300px;
+    width: 500px;
+}
+footer{
+    background-color: darkmagenta;
+}
+.figura{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border:5px solid black;
+    gap: 80px;
+    padding: 16px;
+}
+main{
+    right: 100%;
+}
+
+figure{
+    border: 2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*     header{display:flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    border: 2px cornflowerblue;
+    background-color: orangered;
+    padding: 0 16px;
+}
+main{
+    flex: grow 1px; ;
+    background-color: blueviolet;
+}
+body{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+footer{
+    background-color: darkslateblue;
+}
+figura{
+    
+    border: 1px crimson;
+    height: 200px;
+    padding: 16px;
+    background-color: white;
+
+} */
